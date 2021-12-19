@@ -15,8 +15,8 @@ class CryptoDiff extends Component {
   style() {
     return `
         :host {
-            --exchange-increase: #6fd468;
-            --exchange-decrease: #ff7b95;
+            --exchange-increase: #A3BE8C;
+            --exchange-decrease: #BF616A;
         }
 
         .crypto-diff.exchange-increase {

@@ -54,7 +54,7 @@ class Crypto extends Component {
   style() {
     return `
       :host {
-          --main-accent: #6fd468;
+          --main-accent: #8FBCBB;
       }
 
       * {

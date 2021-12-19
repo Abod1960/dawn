@@ -89,7 +89,7 @@ class Statusbar extends Component {
 
       #tabs ul li[active]:not(:last-child) {
           font-weight: 700;
-          color: #fff;
+          color: #D8DEE9;
           font-size: 16px;
           padding: 6px 0;
       }
@@ -98,20 +98,20 @@ class Statusbar extends Component {
       #tabs ul li[active]:nth-child(3) ~ li:last-child { margin: 0 0 0 70px; }
 
       #tabs ul li[active]:nth-child(2) ~ li:last-child {
-          --flavour: #16a2a2;
+          --flavour: #B48EAD;
       }
 
       #tabs ul li[active]:nth-child(3) ~ li:last-child {
-          --flavour: #5b52e4;
+          --flavour: #5E81AC;
       }
 
       .widgets {
           right: 0;
           margin: auto;
           height: 32px;
-          color: #fff;
+          color: #D8DEE9;
           font-size: 12px;
-          background: #1d1d21;
+          background: #2e3440;
       }
 
       .widgets:hover .edit {

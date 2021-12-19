@@ -5,7 +5,7 @@ const GLOBAL_CONFIG = new Config({
     refreshIn: 60
   },
   temperature: {
-    location: 'New York',
+    location: 'Dubai',
     scale: 'C'
   },
   clock: 'h:i p',
