@@ -32,8 +32,8 @@
 }
 
 :root {
-    --accent: crimson;
-    --bg: #0f0f12;
+    --accent: #3281ea;
+    --bg: #161616;
 }
 
 body {
@@ -61,7 +61,7 @@ body {
 }
 
 #links .nav {
-    color: #fff;
+    color: #f3f3f3;
 }
 
 #panels {
@@ -76,7 +76,7 @@ body {
     bottom: 0;
     margin: auto;
     box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
-    background: #18181d;
+    background: #161616	;
 }
 
 #panels ul {
@@ -85,7 +85,7 @@ body {
     width: 100%;
     height: 100%;
     right: 100%;
-    background: #fff url("../img/bg-1.gif") repeat left;
+    background: #f3f3f3 url("../img/bg-1.gif") repeat left;
     transition: all .6s;
     animation: scroll 25s ease-in-out infinite;
 }
@@ -97,19 +97,19 @@ body {
 }
 
 #panels ul:nth-child(2) {
-    --flavour: #16a2a2;
+    --flavour: #0284e8	;
 }
 
 #panels ul:nth-child(3) {
-    --flavour: #5b52e4;
+    --flavour: #02a3e8;
 }
 
 #panels ul .links {
     box-shadow: inset -1px 0 var(--flavour);
 }
 
-#panels ul:nth-child(2) { background: #fff url("../img/bg-2.gif") repeat center left fixed; }
-#panels ul:nth-child(3) { background: #fff url("../img/bg-3.gif") repeat center left fixed; }
+#panels ul:nth-child(2) { background: #f3f3f3 url("../img/bg-2.gif") repeat center left fixed; }
+#panels ul:nth-child(3) { background: #f3f3f3 url("../img/bg-3.gif") repeat center left fixed; }
 
 #panels ul[active] {
     right: 0;
@@ -120,7 +120,7 @@ body {
     right: 0;
     width: 70%;
     height: 100%;
-    background: #18181d;
+    background: #161616	;
     padding: 5%;
     flex-wrap: wrap;
 }
@@ -143,7 +143,7 @@ body {
 #panels > ul:first-child .links a:hover {
     transform: scale(1.2);
     box-shadow: 0 0 rgba(0, 0, 0, 0.25), 0 0 0 rgba(0, 0, 0, .5), 0 -4px 5px rgba(0, 0, 0, .1);
-    color: #fff;
+    color: #3281ea	;
 }
 
 #panels ul::after {
@@ -200,7 +200,7 @@ body {
 }
 
 #panels > ul:not(:first-child) li a:hover {
-    color: #fff;
+    color: #3281ea	;
 }
 
 #panels > ul:not(:first-child) li a:hover::before {
@@ -220,7 +220,7 @@ status-bar {
     width: 90%;
     max-width: 1200px;
     height: 32px;
-    background: #18181d;
+    background: #161616	;
     border-radius: 4px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, .25);
 }
