@@ -98,11 +98,11 @@ class Statusbar extends Component {
       #tabs ul li[active]:nth-child(3) ~ li:last-child { margin: 0 0 0 70px; }
 
       #tabs ul li[active]:nth-child(2) ~ li:last-child {
-          --flavour: #16a2a2;
+          --flavour: #994265;
       }
 
       #tabs ul li[active]:nth-child(3) ~ li:last-child {
-          --flavour: #5b52e4;
+          --flavour: #00756d;
       }
 
       .widgets {
@@ -111,7 +111,7 @@ class Statusbar extends Component {
           height: 32px;
           color: #fff;
           font-size: 12px;
-          background: #1d1d21;
+          background: #262c37;
       }
 
       .widgets:hover .edit {
